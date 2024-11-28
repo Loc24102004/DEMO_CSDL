@@ -1,0 +1,52 @@
+﻿@model IEnumerable< DEMO_CSDL.Models.TaiKhoan>
+@{
+    ViewData["Title"] = "Index";
+}
+<h1>Danh sách tài khoản</h1>
+<button class="p-2"><a asp-action="Create" class="text-decoration-underline"> Tạo tài khoản</a></button>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                Email
+            </th>
+            <th>
+                Tên tài khoản
+            </th>
+            <th>
+               Tên người dùng
+            </th>
+            <th>
+                Mật khẩu
+            </th>
+
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tentk)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Tennguoidung)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Mk)
+                </td>
+                <td>
+
+                    <a asp-action="Delete" asp-route-id="@item.Idtk" class="btn btn-danger btn-sm">Xóa</a>
+                    <a asp-action="Edit" asp-route-id="@item.Idtk" class="btn btn-danger btn-sm">Sửa</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

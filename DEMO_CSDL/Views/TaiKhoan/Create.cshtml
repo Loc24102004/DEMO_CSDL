@@ -1,0 +1,72 @@
+﻿@model DEMO_CSDL.Models.TaiKhoan
+@{
+    ViewData["Title"] = "Cretae";
+}
+<h1>Create </h1>
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Tentk" class="control-label"></label>
+        <input asp-for="Tentk" class="form-control" />
+        <span asp-validation-for="Tentk" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email" class="control-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Tennguoidung" class="control-label"></label>
+        <input asp-for="Tennguoidung" class="form-control" />
+        <span asp-validation-for="Tennguoidung" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Honguoidung" class="control-label"></label>
+        <input asp-for="Honguoidung" class="form-control" />
+        <span asp-validation-for="Honguoidung" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Mk" class="control-label"></label>
+        <input asp-for="Mk" class="form-control" />
+        <span asp-validation-for="Mk" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Diachi" class="control-label"></label>
+        <input asp-for="Diachi" class="form-control" />
+        <span asp-validation-for="Diachi" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Sodienthoai" class="control-label"></label>
+        <input asp-for="Sodienthoai" class="form-control" type="number" />
+        <span asp-validation-for="Sodienthoai" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Sdtnguoithan" class="control-label"></label>
+        <input asp-for="Sdtnguoithan" class="form-control" type="number" />
+        <span asp-validation-for="Sdtnguoithan" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Ngaytao" class="control-label"></label>
+        <input asp-for="Ngaytao" class="form-control" type="datetime" />
+        <span asp-validation-for="Ngaytao" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Ngaychinhsua" class="control-label"></label>
+        <input asp-for="Ngaychinhsua" class="form-control" type="datetime" />
+        <span asp-validation-for="Ngaychinhsua" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Nguoitao" class="control-label"></label>
+        <input asp-for="Nguoitao" class="form-control" type="text" />
+        <span asp-validation-for="Ngaytao" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Active" class="control-label"></label>
+        <input asp-for="Active" class="form-control" type="checkbox" />
+        <span asp-validation-for="Active" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>

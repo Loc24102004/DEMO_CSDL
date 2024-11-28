@@ -1,0 +1,41 @@
+﻿@model IEnumerable<DEMO_CSDL.Models.TrangThai>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Danh sách trạng thái</h1>
+
+<button>
+    <a asp-action="Create">Tạo mới trạng thái</a>
+</button>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Tên trạng thái
+            </th>
+            <th>
+                Mô tả
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tentrangthai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mota)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Idtrangthai">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Idtrangthai">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Idtrangthai">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

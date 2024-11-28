@@ -1,0 +1,55 @@
+﻿html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+   
+}
+body {
+    background-image: url('https://intoroigiare.vn/wp-content/uploads/2023/11/background-hinh-nen-powerpoint-dep.jpg');
+    background-size: cover; /* Để ảnh phủ kín toàn bộ nền */
+    background-repeat: no-repeat; /* Đảm bảo ảnh không lặp lại */
+    background-position: center; /* Căn giữa ảnh */
+}
+/*.Nhatkies {
+    background-image: url('https://cdn.world-link.edu.vn/wp-content/uploads/2024/06/hinh-nen-background-dep-1.jpg');
+    background-size: ;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 100%; 
+    height: 100%; 
+}*/
+.Date-time{
+     display:inline-block;
+    position:relative;
+    left:1000px;
+    top:0;
+    right:0;
+    border:dashed;
+    
+}
+.square-box {
+    border: 1px solid #ccc; /* Đường viền cho khung */
+    padding: 10px; /* Khoảng cách giữa viền và nội dung */
+    width: auto; /* Chiều rộng của khung */
+    height: fit-content; /* Chiều cao của khung */
+    overflow: auto; /* Thêm thanh cuộn nếu nội dung quá lớn */
+    background-color: #f9f9f9; /* Màu nền */
+    border-radius: inherit;
+}

@@ -1,0 +1,127 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DEMO_CSDL
+build_property.RootNamespace = DEMO_CSDL
+build_property.ProjectDir = C:\ĐỒ ÁN\DEMO_CSDL\DEMO_CSDL\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\ĐỒ ÁN\DEMO_CSDL\DEMO_CSDL
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/Loainhatkies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haW5oYXRraWVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/Loainhatkies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haW5oYXRraWVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/Loainhatkies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9haW5oYXRraWVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/NhatKies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhdEtpZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/NhatKies/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhdEtpZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/NhatKies/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhdEtpZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/NhatKies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhdEtpZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/NhatKies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhdEtpZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/TaiKhoan/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/TaiKhoan/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/TaiKhoan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/TaiKhoan/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/TaiKhoan/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/TrangThais/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbmdUaGFpc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/TrangThais/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbmdUaGFpc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/TrangThais/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbmdUaGFpc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/TrangThais/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbmdUaGFpc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/TrangThais/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbmdUaGFpc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/ĐỒ ÁN/DEMO_CSDL/DEMO_CSDL/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-jjhjn3hxeh

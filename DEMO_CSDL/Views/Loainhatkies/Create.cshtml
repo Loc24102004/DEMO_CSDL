@@ -1,0 +1,60 @@
+﻿@model DEMO_CSDL.Models.LoaiNk
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>LoaiNk</h4>
+<hr />
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="Create">
+            @* <div class="form-group">
+                <label asp-for="Idloaink" class="control-label"></label>
+                <input asp-for="Idloaink" class="form-control" />
+                <span asp-validation-for="Idloaink" class="text-danger"></span>
+            </div> *@
+            <div class="form-group">
+                <label asp-for="Tenloai" class="control-label"></label>
+                <input asp-for="Tenloai" class="form-control" />
+                <span asp-validation-for="Tenloai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mota" class="control-label"></label>
+                <input asp-for="Mota" class="form-control" />
+                <span asp-validation-for="Mota" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ngaytao" class="control-label"></label>
+                <input asp-for="Ngaytao" class="form-control" />
+                <span asp-validation-for="Ngaytao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ngaychinhsua" class="control-label"></label>
+                <input asp-for="Ngaychinhsua" class="form-control" />
+                <span asp-validation-for="Ngaychinhsua" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nguoichinhsua" class="control-label"></label>
+                <input asp-for="Nguoichinhsua" class="form-control" />
+                <span asp-validation-for="Nguoichinhsua" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nguoitao" class="control-label"></label>
+                <input asp-for="Nguoitao" class="form-control" />
+                <span asp-validation-for="Nguoitao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

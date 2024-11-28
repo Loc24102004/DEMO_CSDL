@@ -1,0 +1,38 @@
+﻿<div class="d-flex justify-content-center align-items-center vh-100">
+    <div class="View_login container-fluid col-lg-5 col-md-7 col-sm-10 col-12 row align-content-center m-5 p-4 border rounded shadow">
+        <div class="text-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+            </svg>
+            <p class="text-center fs-4 mt-2">Login</p>
+        </div>
+
+        <form asp-action="Login" method="post">
+            <div class="input-group flex-nowrap mb-3">
+                <span class="input-group-text" id="Username">Username</span>
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="Username" name="Tentk" required>
+            </div>
+
+            <div class="input-group flex-nowrap mb-3">
+                <span class="input-group-text" id="Password">Password</span>
+                <input type="password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="Password" name="Mk" required>
+            </div>
+
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <button type="submit" class="btn btn-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z" />
+                        <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z" />
+                    </svg>
+                    Sign in
+                </button>
+            </div>
+        </form>
+
+        <!-- Link to Register -->
+        <div class="text-center mt-4">
+            <p>Bạn chưa có tài khoản? <a asp-action="Register"> Đăng ký ở đây</a>.</p>
+        </div>
+    </div>
+</div>

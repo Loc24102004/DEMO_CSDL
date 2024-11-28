@@ -1,0 +1,88 @@
+﻿@model DEMO_CSDL.Models.NhatKy
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>NhatKy</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Idnk" />
+            <div class="form-group">
+                <label asp-for="Idloaink" class="control-label"></label>
+                <select asp-for="Idloaink" class="form-control" asp-items="ViewBag.Idloaink"></select>
+                <span asp-validation-for="Idloaink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Idtrangthai" class="control-label"></label>
+                <select asp-for="Idtrangthai" class="form-control" asp-items="ViewBag.Idtrangthai"></select>
+                <span asp-validation-for="Idtrangthai" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tieude" class="control-label"></label>
+                <input asp-for="Tieude" class="form-control" />
+                <span asp-validation-for="Tieude" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Noidung" class="control-label"></label>
+                <input asp-for="Noidung" class="form-control" />
+                <span asp-validation-for="Noidung" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Mota" class="control-label"></label>
+                <input asp-for="Mota" class="form-control" />
+                <span asp-validation-for="Mota" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Hinhanh" class="control-label">Hình ảnh</label>
+                <br />
+                <input asp-for="Hinhanh" type="file" class="form-control" />
+                <span asp-validation-for="Hinhanh" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Video" class="control-label"></label>
+                <input asp-for="Video" type="file" class="form-control" />
+                <span asp-validation-for="Video" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ngaytao" class="control-label"></label>
+                <input asp-for="Ngaytao" class="form-control" />
+                <span asp-validation-for="Ngaytao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Ngaychinhsua" class="control-label"></label>
+                <input asp-for="Ngaychinhsua" class="form-control" />
+                <span asp-validation-for="Ngaychinhsua" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nguoichinhsua" class="control-label"></label>
+                <input asp-for="Nguoichinhsua" class="form-control" />
+                <span asp-validation-for="Nguoichinhsua" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nguoitao" class="control-label"></label>
+                <input asp-for="Nguoitao" class="form-control" />
+                <span asp-validation-for="Nguoitao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Idtk" class="control-label"></label>
+                <select asp-for="Idtk" class="form-control" asp-items="ViewBag.Idtk"></select>
+                <span asp-validation-for="Idtk" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

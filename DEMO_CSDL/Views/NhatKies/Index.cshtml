@@ -1,0 +1,39 @@
+﻿@model IEnumerable<DEMO_CSDL.Models.NhatKy>
+
+@{
+    ViewData["Title"] = "Danh sách Nhật ký";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>
+    <a href="@Url.Action("Create", "NhatKies")" class="btn btn-primary">Tạo Nhật ký mới</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tiêu đề</th>
+            <th>Mô tả</th>
+            <th>Ngày tạo</th>
+            <th>Trạng thái</th>
+            <th>Hành động</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Tieude</td>
+                <td>@item.Mota</td>
+                <td>@item.Ngaytao</td>
+                <td>@item.IdtrangthaiNavigation.Tentrangthai</td>
+                <td>
+                    <a href="@Url.Action("Edit", "NhatKies", new { id = item.Idnk })" class="btn btn-warning">Sửa</a>
+                    <a href="@Url.Action("Details", "NhatKies", new { id = item.Idnk })" class="btn btn-info">Chi tiết</a>
+                    <a href="@Url.Action("Delete", "NhatKies", new { id = item.Idnk })" class="btn btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

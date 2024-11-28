@@ -1,0 +1,47 @@
+﻿@model IEnumerable<DEMO_CSDL.Models.LoaiNk>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Danh sách các loại nhật ký</h1>
+<button>
+    <a href="/Loainhatkies/Create">Tạo loại nhật ký</a>
+</button>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Tenloai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mota)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Idloaink)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tenloai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mota)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Idloaink)
+                </td>
+                <td>
+                    
+                    <a asp-action="Delete" asp-route-id="@item.Idloaink" class="btn btn-danger btn-sm">Xóa</a>
+                    <a asp-action="Edit" asp-route-id="@item.Idloaink" class="btn btn-danger btn-sm">Sửa</a>
+
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

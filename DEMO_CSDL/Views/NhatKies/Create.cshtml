@@ -1,0 +1,100 @@
+﻿@model DEMO_CSDL.Models.NhatKy
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>NhatKy</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <!-- Thể loại nhật ký -->
+            <div class="form-group">
+                <label class="control-label">Thể Loại nhật ký</label>
+                <select asp-for="Idloaink" class="form-control" asp-items="ViewBag.Idloaink"></select>
+            </div>
+
+            <!-- Trạng thái -->
+            <div class="form-group">
+                <label class="control-label">Chọn trạng thái</label>
+                <select asp-for="Idtrangthai" class="form-control" asp-items="ViewBag.Idtrangthai"></select>
+            </div>
+
+            <!-- Tiêu đề nhật ký -->
+            <div class="form-group">
+                <label class="control-label">Tiêu đề của nhật ký</label>
+                <input asp-for="Tieude" class="form-control" />
+                <span asp-validation-for="Tieude" class="text-danger"></span>
+            </div>
+
+            <!-- Nội dung nhật ký -->
+            <div class="form-group">
+                <label class="control-label">Viết nội dung nhật ký ở đây nè!!!</label>
+                <textarea asp-for="Noidung" class="form-control" rows="4"></textarea>
+                <span asp-validation-for="Noidung" class="text-danger"></span>
+            </div>
+
+            <!-- Mô tả ngắn -->
+            <div class="form-group">
+                <label class="control-label">Mô tả ngắn gọn nội dung nhật ký</label>
+                <input asp-for="Mota" class="form-control" />
+                <span asp-validation-for="Mota" class="text-danger"></span>
+            </div>
+
+            <!-- Hình ảnh -->
+            <div class="form-group">
+                <label class="control-label">Hình ảnh</label>
+                <input asp-for="Hinhanh" class="form-control" />
+                <span asp-validation-for="Hinhanh" class="text-danger"></span>
+            </div>
+
+            <!-- Video -->
+            <div class="form-group">
+                <label class="control-label">Video</label>
+                <input asp-for="Video" class="form-control" />
+                <span asp-validation-for="Video" class="text-danger"></span>
+            </div>
+
+            <!-- Ngày tạo -->
+            <div class="form-group">
+                <label class="control-label">Ngày tạo</label>
+                <input asp-for="Ngaytao" class="form-control" />
+                <span asp-validation-for="Ngaytao" class="text-danger"></span>
+            </div>
+
+            <!-- Ngày chỉnh sửa -->
+            <div class="form-group">
+                <label class="control-label">Ngày chỉnh sửa</label>
+                <input asp-for="Ngaychinhsua" class="form-control" />
+                <span asp-validation-for="Ngaychinhsua" class="text-danger"></span>
+            </div>
+
+            <!-- Người chỉnh sửa -->
+            <div class="form-group">
+                <label class="control-label">Người chỉnh sửa</label>
+                <input asp-for="Nguoichinhsua" class="form-control" />
+                <span asp-validation-for="Nguoichinhsua" class="text-danger"></span>
+            </div>
+
+            <!-- Người tạo -->
+            <div class="form-group">
+                <label class="control-label">Người tạo</label>
+                <input asp-for="Nguoitao" class="form-control" />
+                <span asp-validation-for="Nguoitao" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
